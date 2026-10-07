@@ -1,0 +1,38 @@
+button{
+    background-color: skyblue;
+    color: white;
+    padding: 10px 30px;
+   margin: 10px 50px  ;
+   border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration:underline;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    width: 120px;
+    height: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+#video{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
